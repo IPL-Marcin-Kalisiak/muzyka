@@ -2,6 +2,13 @@
 
 Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięzły wpis na górze. Podawaj stan faktyczny oraz następny krok.
 
+## 2026-09-15 — strona skrzypiec i dwa silniki
+
+- Zrobiono: dodano `/violin` z wygenerowaną fotografią, interaktywnym czterostrunowym gryfem, automatyczną listą skrzypcowych JSON i eksportem WAV. Użytkownik może wybrać próbkowane skrzypce FreePats przez lokalny Python + FluidSynth albo model syntetyczny Web Audio. Dodano oryginalne studium `amber_evening_violin.json`, nawigację oraz dokumentację.
+- Dlaczego: skrzypce są trzecim instrumentem AI Orchestra i mają działać analogicznie do pianina oraz gitary, z przewidywalnym wyborem barwy.
+- Sprawdzono: PHP i JS przechodzą kontrolę składni; próbny render 48 nut tworzy stereo WAV 44,1 kHz o długości 21,01 s i szczycie około −4,3 dBFS. Bank, interpreter oraz silnik są wewnątrz projektu.
+- Otwarte: SF2 używa jednego presetu i nie wykonuje jeszcze artykulacji, kierunku/nacisku smyczka, portamento ani parametrów vibrato z JSON.
+- Następny krok: po odsłuchu dobrać osobne próbki artykulacji lub zaprojektować pola wykonawcze MusicJSON dla smyczków.
 ## 2026-09-15 — regulacja miksera w czasie rzeczywistym
 
 - Zrobiono: suwaki każdej ścieżki, przyciski wyciszenia i poziom główny aktualizują aktywne `GainNode` podczas odtwarzania; zmiana ma 15 ms wygładzenia. Wyciszone przy starcie ścieżki nadal mają uruchomione źródło, dlatego można je włączyć w trakcie bez utraty synchronizacji.

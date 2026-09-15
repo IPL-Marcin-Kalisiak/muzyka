@@ -1,6 +1,6 @@
 # Struktura projektu AI Orchestra
 
-Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, gdy dodajesz, przenosisz lub zmieniasz przeznaczenie katalogu bądź istotnego pliku. Opisuj stan istniejący osobno od planowanego. Ścieżki są względne wobec `C:\!!!_MuZyKa_!!!`.
+Stan: 2026-09-15. Ten plik jest **główną mapą katalogów**. Aktualizuj go, gdy dodajesz, przenosisz lub zmieniasz przeznaczenie katalogu bądź istotnego pliku. Opisuj stan istniejący osobno od planowanego. Ścieżki są względne wobec `C:\!!!_MuZyKa_!!!`.
 
 ## Aktualna struktura
 
@@ -23,17 +23,22 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │       ├── js/guitar.js              # syntetyczny odsłuch gryfu
 │       ├── js/render-guitar.js       # wybór próbkowanego lub syntetycznego WAV
 │       ├── js/render-piano.js        # wybór renderera WAV: Python lub przeglądarka
+│       ├── js/violin.js              # syntetyczny, interaktywny gryf skrzypiec
+│       ├── js/render-violin.js       # próbkowany lub syntetyczny WAV skrzypiec
 │       ├── js/mixer.js               # odsłuch, poziomy i eksport wielu WAV
 │       ├── images/grand-piano.png    # wygenerowana fotografia pianina
-│       └── images/classical-guitar.png # wygenerowana fotografia gitary
+│       ├── images/classical-guitar.png # wygenerowana fotografia gitary
+│       └── images/violin.png         # wygenerowana fotografia skrzypiec
 ├── app/                              # kod i dane po stronie serwera
 │   ├── router.php                    # obsługa ścieżek i wybór widoku
 │   ├── library_catalog.php           # wykrywanie partytur pianina po JSON
 │   ├── guitar_catalog.php            # wykrywanie partytur gitary po JSON
+│   ├── violin_catalog.php            # wykrywanie partytur skrzypiec po JSON
 │   ├── view/
 │   │   ├── home.php                  # strona startowa
 │   │   ├── piano.php                 # pierwsza strona pianina
 │   │   ├── guitar.php                # strona gitary klasycznej
+│   │   ├── violin.php                # strona skrzypiec
 │   │   └── mixer.php                 # lokalny mikser gotowych plików WAV
 │   ├── library/
 │   │   ├── .gitkeep
@@ -45,6 +50,7 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   │   ├── in_the_hall_of_the_mountain_king_classical_guitar.json # aranżacja gitary 0.3
 │   │   ├── despacito_full_solo_guitar.json # gitarowy MusicJSON 0.4; fragment źródłowego MIDI
 │   │   ├── latin_fingerstyle_training_full.json # rozbudowane studium gitary 0.5
+│   │   ├── amber_evening_violin.json # oryginalne studium skrzypiec MusicJSON 0.3
 │   │   ├── MIDI/Luis-Fonsi-Despacito.mid # dostarczony plik źródłowy
 │   │   └── vivaldi_spring_allegro_piano.json # partytura pianina 0.3 w tickach MIDI
 │   ├── instruments/
@@ -52,7 +58,7 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   │   ├── piano/ydp-grand-piano/    # próbki Yamaha Disklavier Pro, SF2 i nota CC BY 3.0
 │   │   ├── piano/upright-kw/         # próbki Kawai Upright KW SF2, nota CC0
 │   │   ├── guitar/freepats-spanish-classical/ # próbki SF2 gitary, nota CC0
-│   │   └── violin/.gitkeep           # zasoby skrzypiec
+│   │   └── violin/freepats-gm/       # bank General MIDI z próbkami skrzypiec i licencjami
 │   └── vocal/
 │       ├── pl/
 │       │   ├── Agnieszka/.gitkeep    # przyszłe zasoby polskiego głosu
@@ -67,12 +73,14 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   ├── runtime/                      # lokalny Python 3.12.10 embeddable
 │   ├── render_piano.py              # MusicJSON → MIDI → próbkowany WAV
 │   ├── render_guitar.py             # MusicJSON 0.3 → MIDI → próbkowany WAV gitary
+│   ├── render_violin.py              # MusicJSON 0.3 → MIDI → próbkowany WAV skrzypiec
 │   └── output/                       # krótkotrwałe pliki renderowania
 └── dokumentacja/
     ├── README.md                     # dokumentacja produktu i aktualnego stanu
     ├── uruchamianie.md               # instrukcja uruchomienia
     ├── renderowanie-pianina.md       # silnik, ograniczenia, licencje
     ├── renderowanie-gitary.md        # silnik gitary, ograniczenia, licencja
+    ├── renderowanie-skrzypiec.md     # silniki skrzypiec, ograniczenia i licencja
     ├── matematyka-muzyki.md          # pomiary partytur i hipotezy analizy
     └── mikser-wav.md                 # łączenie i eksport ścieżek WAV
 ```

@@ -9,7 +9,7 @@
   <script src="/assets/js/mixer.js" defer></script>
 </head>
 <body>
-<header class="site-header"><a class="brand" href="/"><span class="brand-mark">◈</span> AI <strong>ORCHESTRA</strong></a><nav aria-label="Nawigacja"><a href="/">Studio</a><a href="/piano">Pianino</a><a href="/guitar">Gitara</a><a class="active" href="/mixer">Mikser</a></nav><span class="local"><i></i> LOKALNE STUDIO</span></header>
+<header class="site-header"><a class="brand" href="/"><span class="brand-mark">◈</span> AI <strong>ORCHESTRA</strong></a><nav aria-label="Nawigacja"><a href="/">Studio</a><a href="/piano">Pianino</a><a href="/guitar">Gitara</a><a href="/violin">Skrzypce</a><a class="active" href="/mixer">Mikser</a></nav><span class="local"><i></i> LOKALNE STUDIO</span></header>
 <main class="mixer-page">
   <section class="mixer-intro"><span class="eyebrow">ŚCIEŻKI → JEDEN UTWÓR</span><h1>Mikser muzyczny</h1><p>Wczytaj gotowe pliki WAV, sprawdź każdy instrument oddzielnie, ustaw poziomy i uruchom całą orkiestrę od wspólnego początku.</p></section>
   <section class="mixer-workspace">

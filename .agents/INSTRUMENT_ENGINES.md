@@ -2,6 +2,13 @@
 
 Stan: 2026-09-13. To rejestr **faktycznie używanych** składników projektu. Aktualizuj go przy dodaniu, wymianie lub aktualizacji silnika, próbki, biblioteki albo sposobu renderowania. Docelowe pomysły oznaczaj jako plan, nie jako gotowe funkcje.
 
+
+## Skrzypce
+
+`/violin` ma dwa silniki. Domyślny eksport używa `python/render_violin.py`, lokalnego FluidSynth 2.5.4 i programu General MIDI 40 z banku `app/instruments/violin/freepats-gm/FreePatsGM-SF2-20221026/FreePatsGM-20221026.sf2`. Bank FreePats General MIDI w wydaniu 2022-10-26 ma licencję GNU GPL v3+ ze specjalnym wyjątkiem; oryginalne `readme.txt`, `gpl.txt` i `cc0.txt` są zachowane przy SF2. Archiwum źródłowe znajduje się w `server/packages/FreePatsGM-SF2-20221026.7z`.
+
+Drugi silnik to deterministyczna synteza Web Audio używana przez interaktywny gryf i opcjonalny eksport w przeglądarce. Sumuje harmoniczne, obwiednię i łagodne vibrato. Renderer próbkowany obsługuje MusicJSON 0.3 w tickach: pitch MIDI, początek, długość, velocity i mapę tempa. Nie interpretuje jeszcze legato, staccato, kierunku/nacisku smyczka, portamento ani parametrów vibrato. Szczegóły: [`../dokumentacja/renderowanie-skrzypiec.md`](../dokumentacja/renderowanie-skrzypiec.md).
+
 ## Gitara klasyczna
 
 `/guitar` ma domyślny eksport próbkowany: MusicJSON 0.3 → `python/render_guitar.py` → tymczasowy MIDI → projektowy FluidSynth 2.5.4 + FreePats Spanish classical guitar SF2 → WAV. Python używa biblioteki standardowej. Bank `app/instruments/guitar/freepats-spanish-classical/SpanishClassicalGuitar-SF2-20190618/SpanishClassicalGuitar-20190618.sf2` jest z próbek nagranych w 2008 roku i ma licencję CC0 1.0; oryginalne noty `readme.txt` i `cc0.txt` są obok. Źródło: [FreePats Nylon-String Acoustic Guitar](https://freepats.zenvoid.org/Guitar/acoustic-guitar.html). Archiwum jest w `server/packages/`. Zachowano też syntetyczny eksport WAV oraz syntetyczny interaktywny gryf Web Audio. Gitarowy renderer zachowuje MIDI pitch, velocity, ticki i mapę tempa, lecz nie interpretuje jeszcze palcowania `string`/`fret` ani zaawansowanych artykulacji. Więcej w [`../dokumentacja/renderowanie-gitary.md`](../dokumentacja/renderowanie-gitary.md).
@@ -38,7 +45,7 @@ Archiwa użytych wydań są w `server/packages/`. Zależności silnika Windows (
 - Suwak „Poziom końcowego WAV” ustawia żądane wzmocnienie od −12 do +12 dB po renderowaniu. Endpoint `/api/piano-level` renderuje wybrany JSON/model/balans bez zapisywania końcowego pliku i mierzy szczyt PCM; ostrzeżenie jest więc osobne dla partytury i brzmienia. Właściwy eksport ogranicza zastosowane wzmocnienie tak, aby szczyt pliku nie przekroczył około −1 dBFS. Nie usuwa to ewentualnego przesterowania powstałego wcześniej w samym FluidSynth.
 - `velocity` wpływa na dynamikę i wybór warstwy próbki. Wysokość, początek, długość nuty oraz pojedyncze tempo lub mapa tempa są używane. Dla MusicJSON 0.2 renderer zachowuje oryginalne ticki MIDI, tempo w mikrosekundach na ćwierćnutę i zdarzenia MIDI CC (w tym pedał CC64). CC11 jest zarezerwowane dla suwaka balansu. Wariant syntetyczny w przeglądarce obsługuje tylko format 0.1.
 - `articulation`, `mix`, `analysis`, `render` i wskazówki pogłosu w JSON są obecnie metadanymi lub planem; renderer nie realizuje ich jeszcze w pełni. Nie należy obiecywać wykonania staccato, akcentu, pedału czy miksu dB tylko dlatego, że te pola istnieją.
-- `app/instruments/violin/` i `app/vocal/` mają wyłącznie szkielet katalogów. Nie ma obecnie silnika skrzypiec ani syntezy wokalu. OpenUTAU, VST i inne silniki wymienione w wizji nie są zainstalowane ani połączone z aplikacją.
+- `app/vocal/` ma wyłącznie szkielet katalogów. Nie ma obecnie syntezy wokalu. OpenUTAU, VST i inne silniki wymienione w wizji nie są zainstalowane ani połączone z aplikacją.
 
 ## Pochodzenie i prawa
 

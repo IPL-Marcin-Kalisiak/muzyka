@@ -7,6 +7,44 @@ require_once __DIR__ . '/library_catalog.php';
 $pianoScores = pianoScores($libraryDir);
 require_once __DIR__ . '/guitar_catalog.php';
 $guitarScores = guitarScores($libraryDir);
+require_once __DIR__ . '/violin_catalog.php';
+$violinScores = violinScores($libraryDir);
+
+if ($path === '/api/violin-score') {
+    $selected = $_GET['file'] ?? null;
+    if (!is_string($selected) || !isset($violinScores[$selected])) {
+        http_response_code(404); header('Content-Type: application/json; charset=utf-8');
+        echo json_encode(['error' => 'Nie znaleziono wybranej partytury skrzypiec.'], JSON_UNESCAPED_UNICODE); return;
+    }
+    header('Content-Type: application/json; charset=utf-8'); header('Cache-Control: no-store');
+    readfile($violinScores[$selected]['path']); return;
+}
+
+if ($path === '/api/render-violin') {
+    header('Cache-Control: no-store');
+    if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST' || !str_starts_with($_SERVER['CONTENT_TYPE'] ?? '', 'application/json')) {
+        http_response_code(405); echo 'Wymagane żądanie POST z JSON.'; return;
+    }
+    $request = json_decode(file_get_contents('php://input') ?: '', true);
+    $selected = $request['file'] ?? null;
+    if (!is_string($selected) || !isset($violinScores[$selected])) {
+        http_response_code(400); echo 'Nieprawidłowa partytura skrzypiec.'; return;
+    }
+    $root = dirname(__DIR__); $outputDir = $root . '/python/output';
+    if (!is_dir($outputDir)) mkdir($outputDir, 0775, true);
+    $output = $outputDir . '/' . bin2hex(random_bytes(12)) . '.wav';
+    $command = [$root . '/python/runtime/python.exe', $root . '/python/render_violin.py', '--score', $violinScores[$selected]['path'], '--output', $output];
+    $process = proc_open($command, [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pipes, $root);
+    if (!is_resource($process)) { http_response_code(500); echo 'Nie udało się uruchomić lokalnego Pythona.'; return; }
+    $result = stream_get_contents($pipes[1]); fclose($pipes[1]); $error = stream_get_contents($pipes[2]); fclose($pipes[2]); $exitCode = proc_close($process);
+    if ($exitCode !== 0 || !is_file($output)) {
+        if (is_file($output)) unlink($output); http_response_code(422); header('Content-Type: text/plain; charset=utf-8');
+        echo 'Renderowanie skrzypiec nie powiodło się: ' . trim($error ?: $result); return;
+    }
+    header('Content-Type: audio/wav'); header('Content-Length: ' . filesize($output));
+    header('Content-Disposition: inline; filename="' . pathinfo($selected, PATHINFO_FILENAME) . '.wav"');
+    readfile($output); unlink($output); return;
+}
 
 if ($path === '/api/guitar-score') {
     $selected = $_GET['file'] ?? null;
@@ -177,7 +215,7 @@ if ($path === '/api/piano-score') {
     return;
 }
 
-if (!in_array($path, ['/', '/index.php', '/piano', '/guitar', '/mixer'], true)) {
+if (!in_array($path, ['/', '/index.php', '/piano', '/guitar', '/violin', '/mixer'], true)) {
     http_response_code(404);
     echo 'Nie znaleziono strony.';
     return;
@@ -192,6 +230,7 @@ sort($songs, SORT_NATURAL | SORT_FLAG_CASE);
 $view = match ($path) {
     '/piano' => 'piano.php',
     '/guitar' => 'guitar.php',
+    '/violin' => 'violin.php',
     '/mixer' => 'mixer.php',
     default => 'home.php',
 };

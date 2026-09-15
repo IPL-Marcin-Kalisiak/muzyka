@@ -10,7 +10,7 @@
   <script src="/assets/js/render-guitar.js" defer></script>
 </head>
 <body>
-<header class="site-header"><a class="brand" href="/"><span class="brand-mark">◈</span> AI <strong>ORCHESTRA</strong></a><nav aria-label="Nawigacja"><a href="/">Studio</a><a href="/piano">Pianino</a><a class="active" href="/guitar">Gitara</a></nav><span class="local"><i></i> LOKALNE STUDIO</span></header>
+<header class="site-header"><a class="brand" href="/"><span class="brand-mark">◈</span> AI <strong>ORCHESTRA</strong></a><nav aria-label="Nawigacja"><a href="/">Studio</a><a href="/piano">Pianino</a><a class="active" href="/guitar">Gitara</a><a href="/violin">Skrzypce</a><a href="/mixer">Mikser</a></nav><span class="local"><i></i> LOKALNE STUDIO</span></header>
 <main>
   <section class="hero guitar-hero"><div class="hero-shade"></div><div class="hero-copy"><span class="eyebrow">— INSTRUMENT 02 / STRUNOWE</span><h1>Gitara klasyczna</h1><p>Sześć strun, jeden precyzyjny zapis. Odkryj brzmienie szarpanych dźwięków i posłuchaj gitarowej partytury z kodu.</p><a class="link" href="#gryf">Przejdź do gryfu ↓</a></div><small class="photo-caption">GITARA KLASYCZNA · STUDIUM ŚWIATŁA</small></section>
   <section class="intro"><div><span class="eyebrow">OD STRUNY DO KOMPOZYCJI</span><h2>Każde szarpnięcie.<br><em>Świadomy wybór.</em></h2></div><p>Sprawdź dźwięki na interaktywnym gryfie i wygeneruj WAV z partytury JSON. Do eksportu możesz wybrać próbki prawdziwej gitary klasycznej albo pierwszy model syntetyczny — bez zmiany zapisu utworu.</p></section>

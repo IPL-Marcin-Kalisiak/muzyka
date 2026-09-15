@@ -114,3 +114,28 @@ Ten format renderuje **lokalny Python + FluidSynth**. Wariant syntetyczny przegl
 Format 0.1 nie ma formalnego JSON Schema. Następna wersja powinna określić kanoniczną numerację taktów (od 1), relację `start` do metrum, jawne jednostki wszystkich wartości BPM, pierwszeństwo `tempo`/`tempo_map`, zachowanie pauz i nut przez zmianę tempa, identyfikatory ścieżek i głosów, interpretację `mix`/artykulacji/pedału oraz wersjonowanie i migrację starszych plików. Walidacja powinna wskazywać dokładną ścieżkę błędu, np. `tracks[0].voices[1].notes[12].velocity`. Nie należy ogłaszać tych planowanych reguł jako już zaimplementowanych.
 
 Źródło wizji: [`../AI_Orchestra_założenia_projektu.md`](../AI_Orchestra_założenia_projektu.md). Bieżący silnik i próbki: [`INSTRUMENT_ENGINES.md`](INSTRUMENT_ENGINES.md).
+
+## Skrzypce — MusicJSON 0.3
+
+Strona skrzypiec wykrywa pliki, których `tracks[].instrument` zawiera człon `violin`. Lokalny renderer wymaga dokładnie jednej takiej ścieżki i zapisu tickowego:
+
+```json
+{
+  "format": "MusicJSON",
+  "format_version": "0.3",
+  "project": { "title": "Studium skrzypiec", "composer": "Autor" },
+  "global": {
+    "ticks_per_beat": 480,
+    "tempo_map": [{ "tick": 0, "microseconds_per_beat": 714286, "bpm": 84 }]
+  },
+  "tracks": [{
+    "id": "violin",
+    "instrument": "solo_violin",
+    "notes": [
+      { "start_tick": 0, "duration_ticks": 480, "midi_note": 69, "velocity": 76 }
+    ]
+  }]
+}
+```
+
+`tempo_map` musi zaczynać się od ticku 0 i rosnąć. Źródłem czasu jest `microseconds_per_beat`; `bpm` może służyć człowiekowi jako opis. Nuta wymaga całkowitych `start_tick ≥ 0`, `duration_ticks > 0`, `midi_note 0…127` i `velocity 0…127`. Limit renderera wynosi 10 000 nut i 10 minut. Nazwa instrumentu wybiera stronę i renderer, lecz brzmienie pochodzi z wybranego w interfejsie silnika. Pola artykulacji skrzypcowej są na razie opisowe.

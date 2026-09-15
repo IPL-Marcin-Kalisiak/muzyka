@@ -1,0 +1,472 @@
+{
+  "format": "MusicJSON",
+  "format_version": "0.3",
+  "project": {
+    "title": "Amber Evening — Violin Study",
+    "composer": "AI Orchestra — demonstracja techniczna",
+    "instrumentation": [
+      "solo_violin"
+    ],
+    "description": "Oryginalne krótkie studium do porównania syntezy i próbek skrzypiec."
+  },
+  "global": {
+    "ticks_per_beat": 480,
+    "tempo_map": [
+      {
+        "tick": 0,
+        "microseconds_per_beat": 714286,
+        "bpm": 84
+      }
+    ],
+    "time_signatures": [
+      {
+        "tick": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ],
+    "duration_ticks": 11760
+  },
+  "tracks": [
+    {
+      "id": "solo_violin",
+      "instrument": "solo_violin",
+      "midi_program": 40,
+      "channel": 0,
+      "notes": [
+        {
+          "midi_note": 67,
+          "pitch": "G4",
+          "start_tick": 0,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 240,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 480,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 720,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 960,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 1200,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 1440,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 1680,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 67,
+          "pitch": "G4",
+          "start_tick": 1920,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 2160,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 2400,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 79,
+          "pitch": "G5",
+          "start_tick": 2640,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 78,
+          "pitch": "F#5",
+          "start_tick": 2880,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 76,
+          "pitch": "E5",
+          "start_tick": 3120,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 3360,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 3600,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 3840,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 4080,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 4320,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 4560,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 76,
+          "pitch": "E5",
+          "start_tick": 4800,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 5040,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 5280,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 5520,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 5760,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 6000,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 76,
+          "pitch": "E5",
+          "start_tick": 6240,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 81,
+          "pitch": "A5",
+          "start_tick": 6480,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 79,
+          "pitch": "G5",
+          "start_tick": 6720,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 76,
+          "pitch": "E5",
+          "start_tick": 6960,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 7200,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 7440,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 7680,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 7920,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 79,
+          "pitch": "G5",
+          "start_tick": 8160,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 83,
+          "pitch": "B5",
+          "start_tick": 8400,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 81,
+          "pitch": "A5",
+          "start_tick": 8640,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 79,
+          "pitch": "G5",
+          "start_tick": 8880,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 76,
+          "pitch": "E5",
+          "start_tick": 9120,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 74,
+          "pitch": "D5",
+          "start_tick": 9360,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 72,
+          "pitch": "C5",
+          "start_tick": 9600,
+          "duration_ticks": 240,
+          "velocity": 68,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 71,
+          "pitch": "B4",
+          "start_tick": 9840,
+          "duration_ticks": 240,
+          "velocity": 71,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 10080,
+          "duration_ticks": 240,
+          "velocity": 74,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 67,
+          "pitch": "G4",
+          "start_tick": 10320,
+          "duration_ticks": 240,
+          "velocity": 77,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 66,
+          "pitch": "F#4",
+          "start_tick": 10560,
+          "duration_ticks": 240,
+          "velocity": 80,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 67,
+          "pitch": "G4",
+          "start_tick": 10800,
+          "duration_ticks": 240,
+          "velocity": 83,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 69,
+          "pitch": "A4",
+          "start_tick": 11040,
+          "duration_ticks": 240,
+          "velocity": 86,
+          "articulation": "legato",
+          "event_type": "note"
+        },
+        {
+          "midi_note": 67,
+          "pitch": "G4",
+          "start_tick": 11280,
+          "duration_ticks": 480,
+          "velocity": 89,
+          "articulation": "sustain",
+          "event_type": "note"
+        }
+      ]
+    }
+  ]
+}
