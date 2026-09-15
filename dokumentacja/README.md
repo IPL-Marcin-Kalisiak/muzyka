@@ -6,7 +6,7 @@ Pełna, aktualizowana mapa katalogów znajduje się w [`../.agents/STRUCTURE.md`
 
 Wstępna analiza matematycznych zależności w lokalnych partyturach oraz hipotezy dla przyszłego analizatora: [`matematyka-muzyki.md`](matematyka-muzyki.md).
 
-Wstępna analiza matematycznych zależności w lokalnych partyturach oraz hipotezy dla przyszłego analizatora: [`matematyka-muzyki.md`](matematyka-muzyki.md).
+Strona `/mixer` pozwala wczytać kilka gotowych plików WAV, odsłuchać ścieżki osobno lub razem, ustawić ich poziomy i pobrać połączony plik. Szczegóły: [`mikser-wav.md`](mikser-wav.md).
 
 ## Ustalona struktura
 

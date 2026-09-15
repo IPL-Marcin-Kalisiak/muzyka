@@ -2,6 +2,14 @@
 
 Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięzły wpis na górze. Podawaj stan faktyczny oraz następny krok.
 
+## 2026-09-15 — lokalny mikser ścieżek WAV
+
+- Zrobiono: dodano przejście z głównego widoku do `/mixer` oraz stronę do wczytywania wielu WAV. Każdą ścieżkę można odsłuchać solo, wyciszyć, ustawić jej poziom, uruchomić wszystkie od wspólnego początku i pobrać stereofoniczny miks WAV. Dodano opis działania i zaktualizowano mapę projektu.
+- Dlaczego: użytkownik chce składać osobno wygenerowane instrumenty w jeden utwór i móc kontrolować ich odsłuch.
+- Sprawdzono: składnia PHP i JS; strona główna pokazuje nowe przejście, `/mixer` otwiera kompletny interfejs z nieaktywnymi przyciskami do czasu dodania WAV. Funkcje używają lokalnego Web Audio i nie wysyłają wczytanych WAV na serwer.
+- Otwarte: wszystkie ścieżki zaczynają się w 00:00; brak panoramy, przesunięcia, przycinania, efektów i miernika przesterowania.
+- Następny krok: po praktycznym miksie dodać panoramę oraz przesuwanie początku ścieżek lub miernik poziomu, zależnie od potrzeb.
+
 ## 2026-09-15 — przygotowanie publikacji repozytorium
 
 - Zrobiono: przygotowano cały projekt do pierwszego commitu i wysłania do `IPL-Marcin-Kalisiak/muzyka`; dodano `.gitignore` dla wyników tymczasowych i cache. Duże banki SF2 i archiwa są przeznaczone do Git LFS, ponieważ bank YDP przekracza limit 100 MB pojedynczego pliku GitHub.

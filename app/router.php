@@ -177,7 +177,7 @@ if ($path === '/api/piano-score') {
     return;
 }
 
-if (!in_array($path, ['/', '/index.php', '/piano', '/guitar'], true)) {
+if (!in_array($path, ['/', '/index.php', '/piano', '/guitar', '/mixer'], true)) {
     http_response_code(404);
     echo 'Nie znaleziono strony.';
     return;
@@ -189,4 +189,10 @@ foreach (glob($libraryDir . '/*.json') ?: [] as $file) {
 }
 sort($songs, SORT_NATURAL | SORT_FLAG_CASE);
 
-require __DIR__ . '/view/' . ($path === '/piano' ? 'piano.php' : ($path === '/guitar' ? 'guitar.php' : 'home.php'));
+$view = match ($path) {
+    '/piano' => 'piano.php',
+    '/guitar' => 'guitar.php',
+    '/mixer' => 'mixer.php',
+    default => 'home.php',
+};
+require __DIR__ . '/view/' . $view;

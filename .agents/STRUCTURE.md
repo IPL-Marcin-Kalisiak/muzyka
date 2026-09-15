@@ -23,6 +23,7 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │       ├── js/guitar.js              # syntetyczny odsłuch gryfu
 │       ├── js/render-guitar.js       # wybór próbkowanego lub syntetycznego WAV
 │       ├── js/render-piano.js        # wybór renderera WAV: Python lub przeglądarka
+│       ├── js/mixer.js               # odsłuch, poziomy i eksport wielu WAV
 │       ├── images/grand-piano.png    # wygenerowana fotografia pianina
 │       └── images/classical-guitar.png # wygenerowana fotografia gitary
 ├── app/                              # kod i dane po stronie serwera
@@ -32,7 +33,8 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   ├── view/
 │   │   ├── home.php                  # strona startowa
 │   │   ├── piano.php                 # pierwsza strona pianina
-│   │   └── guitar.php                # strona gitary klasycznej
+│   │   ├── guitar.php                # strona gitary klasycznej
+│   │   └── mixer.php                 # lokalny mikser gotowych plików WAV
 │   ├── library/
 │   │   ├── .gitkeep
 │   │   ├── fur_elise_piano.json      # prototyp partytury pianina od użytkownika
@@ -71,7 +73,8 @@ Stan: 2026-09-13. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
     ├── uruchamianie.md               # instrukcja uruchomienia
     ├── renderowanie-pianina.md       # silnik, ograniczenia, licencje
     ├── renderowanie-gitary.md        # silnik gitary, ograniczenia, licencja
-    └── matematyka-muzyki.md          # pomiary partytur i hipotezy analizy
+    ├── matematyka-muzyki.md          # pomiary partytur i hipotezy analizy
+    └── mikser-wav.md                 # łączenie i eksport ścieżek WAV
 ```
 
 Katalog `server/php` zawiera kompletną lokalną kopię dystrybucji PHP (w tym `php.exe`, `php.ini`, `ext/` i biblioteki zależne). Jej pliki wewnętrzne nie są rozpisane w mapie, ponieważ należą do dostarczonego środowiska, a nie do kodu AI Orchestra.
