@@ -2,6 +2,13 @@
 
 Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięzły wpis na górze. Podawaj stan faktyczny oraz następny krok.
 
+## 2026-09-15 — „W grocie króla gór” na skrzypce
+
+- Zrobiono: dodano `in_the_hall_of_the_mountain_king_violin.json` jako solową partię skrzypiec MusicJSON 0.3. Melodia i siedmiostopniowe accelerando pochodzą z wersji pianina, a zapis tickowy i struktura pojedynczego instrumentu z wersji gitary. Wielodźwięki finału zredukowano do najwyższego głosu.
+- Dlaczego: użytkownik chce wykonać ten sam materiał na trzecim instrumencie i bezpośrednio porównać barwy w AI Orchestra.
+- Sprawdzono: 256 nut, zakres B3–F♯6, 119,29 s; Python + FluidSynth tworzy stereo WAV 44,1 kHz ze szczytem −4,0 dBFS i bez obciętych próbek. Plik pojawia się automatycznie na `/violin` i jest dostępny przez bezpieczny endpoint katalogu.
+- Otwarte: `bow_direction`, pozycja i artykulacja są metadanymi; obecny bank SF2 wykonuje wysokość, czas, tempo i velocity.
+- Następny krok: odsłuchać skrzypce samodzielnie oraz razem z fortepianem lub gitarą w mikserze i dopasować poziomy ścieżek.
 ## 2026-09-15 — strona skrzypiec i dwa silniki
 
 - Zrobiono: dodano `/violin` z wygenerowaną fotografią, interaktywnym czterostrunowym gryfem, automatyczną listą skrzypcowych JSON i eksportem WAV. Użytkownik może wybrać próbkowane skrzypce FreePats przez lokalny Python + FluidSynth albo model syntetyczny Web Audio. Dodano oryginalne studium `amber_evening_violin.json`, nawigację oraz dokumentację.

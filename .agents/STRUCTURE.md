@@ -51,6 +51,7 @@ Stan: 2026-09-15. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   │   ├── despacito_full_solo_guitar.json # gitarowy MusicJSON 0.4; fragment źródłowego MIDI
 │   │   ├── latin_fingerstyle_training_full.json # rozbudowane studium gitary 0.5
 │   │   ├── amber_evening_violin.json # oryginalne studium skrzypiec MusicJSON 0.3
+│   │   ├── in_the_hall_of_the_mountain_king_violin.json # solowa aranżacja skrzypcowa 0.3
 │   │   ├── MIDI/Luis-Fonsi-Despacito.mid # dostarczony plik źródłowy
 │   │   └── vivaldi_spring_allegro_piano.json # partytura pianina 0.3 w tickach MIDI
 │   ├── instruments/

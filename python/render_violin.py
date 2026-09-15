@@ -51,7 +51,7 @@ def main():
     with tempfile.NamedTemporaryFile(dir=OUTPUT, suffix=".mid", delete=False) as temporary: midi_path = Path(temporary.name)
     try:
         midi_path.write_bytes(midi)
-        result = subprocess.run([str(FLUIDSYNTH), "-ni", "-R", "0", "-C", "0", "-g", "2.2", "-r", "44100", "-F", str(args.output), str(SOUNDFONT), str(midi_path)], capture_output=True, text=True, timeout=180, cwd=ROOT)
+        result = subprocess.run([str(FLUIDSYNTH), "-ni", "-R", "0", "-C", "0", "-g", "1.2", "-r", "44100", "-F", str(args.output), str(SOUNDFONT), str(midi_path)], capture_output=True, text=True, timeout=180, cwd=ROOT)
         if result.returncode or not args.output.is_file(): raise RuntimeError(result.stderr.strip() or result.stdout.strip() or "FluidSynth nie zwrócił WAV.")
         print(json.dumps({"notes": count, "bytes": args.output.stat().st_size}))
     finally: midi_path.unlink(missing_ok=True)
@@ -61,4 +61,3 @@ if __name__ == "__main__":
     try: main()
     except (ValueError, RuntimeError, OSError, json.JSONDecodeError, subprocess.TimeoutExpired) as error:
         print(f"Błąd renderowania skrzypiec: {error}", file=sys.stderr); sys.exit(1)
-
