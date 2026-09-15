@@ -2,6 +2,14 @@
 
 Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięzły wpis na górze. Podawaj stan faktyczny oraz następny krok.
 
+## 2026-09-15 — regulacja miksera w czasie rzeczywistym
+
+- Zrobiono: suwaki każdej ścieżki, przyciski wyciszenia i poziom główny aktualizują aktywne `GainNode` podczas odtwarzania; zmiana ma 15 ms wygładzenia. Wyciszone przy starcie ścieżki nadal mają uruchomione źródło, dlatego można je włączyć w trakcie bez utraty synchronizacji.
+- Dlaczego: pierwsza wersja zapisywała wartości suwaków tylko do przyszłego odtworzenia i eksportu, więc użytkownik nie słyszał regulacji na bieżąco.
+- Sprawdzono: połączenie każdego suwaka z bieżącym węzłem ścieżki i suwaka głównego z węzłem master; składnia JS poprawna.
+- Otwarte: mikser nadal nie ma mierników poziomu ani panoramy.
+- Następny krok: dodać wskaźniki szczytu, jeśli podczas praktycznego miksowania potrzebna będzie kontrola przesterowania.
+
 ## 2026-09-15 — lokalny mikser ścieżek WAV
 
 - Zrobiono: dodano przejście z głównego widoku do `/mixer` oraz stronę do wczytywania wielu WAV. Każdą ścieżkę można odsłuchać solo, wyciszyć, ustawić jej poziom, uruchomić wszystkie od wspólnego początku i pobrać stereofoniczny miks WAV. Dodano opis działania i zaktualizowano mapę projektu.

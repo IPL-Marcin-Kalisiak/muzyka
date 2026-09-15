@@ -19,6 +19,7 @@
   let playingDuration = 0;
   let timer;
   let mixUrl;
+  let activeMasterGain;
 
   const formatTime = seconds => {
     const whole = Math.max(0, Math.floor(seconds));
@@ -39,12 +40,25 @@
   function stopPlayback(message) {
     sources.forEach(({ source }) => { try { source.stop(); } catch {} });
     sources = [];
+    if (activeMasterGain) activeMasterGain.disconnect();
+    activeMasterGain = undefined;
     clearInterval(timer);
     timer = undefined;
     clock.textContent = `00:00 / ${formatTime(maxDuration())}`;
     progress.style.width = '0%';
     tracks.forEach(track => track.row.classList.remove('playing'));
     if (message) status.textContent = message;
+  }
+
+  function setAudioParam(param, value) {
+    if (!context) return;
+    param.cancelScheduledValues(context.currentTime);
+    param.setTargetAtTime(value, context.currentTime, 0.015);
+  }
+
+  function updateLiveTrackGain(track) {
+    const value = track.muted ? 0 : track.gain;
+    sources.filter(item => item.track === track).forEach(item => setAudioParam(item.gain.gain, value));
   }
 
   async function audioContext() {
@@ -56,25 +70,20 @@
   async function play(selectedTracks, description) {
     stopPlayback();
     const ctx = await audioContext();
-    const masterGain = ctx.createGain();
-    masterGain.gain.value = Number(master.value) / 100;
-    masterGain.connect(ctx.destination);
+    activeMasterGain = ctx.createGain();
+    activeMasterGain.gain.value = Number(master.value) / 100;
+    activeMasterGain.connect(ctx.destination);
     playingDuration = Math.max(...selectedTracks.map(track => track.buffer.duration));
     startedAt = ctx.currentTime + 0.04;
     for (const track of selectedTracks) {
-      if (track.muted) continue;
       const source = ctx.createBufferSource();
       const gain = ctx.createGain();
       source.buffer = track.buffer;
-      gain.gain.value = track.gain;
-      source.connect(gain).connect(masterGain);
+      gain.gain.value = track.muted ? 0 : track.gain;
+      source.connect(gain).connect(activeMasterGain);
       source.start(startedAt);
-      sources.push({ source, gain });
+      sources.push({ source, gain, track });
       track.row.classList.add('playing');
-    }
-    if (!sources.length) {
-      status.textContent = 'Wszystkie wybrane ścieżki są wyciszone.';
-      return;
     }
     status.textContent = description;
     timer = setInterval(() => {
@@ -93,7 +102,11 @@
     row.querySelector('small').textContent = `${formatTime(track.buffer.duration)} · ${track.buffer.numberOfChannels === 1 ? 'mono' : 'stereo'} · ${(track.buffer.sampleRate / 1000).toFixed(1)} kHz`;
     const gain = row.querySelector('input');
     const gainValue = row.querySelector('output');
-    gain.addEventListener('input', () => { track.gain = Number(gain.value) / 100; gainValue.textContent = `${gain.value}%`; });
+    gain.addEventListener('input', () => {
+      track.gain = Number(gain.value) / 100;
+      gainValue.textContent = `${gain.value}%`;
+      updateLiveTrackGain(track);
+    });
     row.querySelector('.mixer-track-play').addEventListener('click', () => play([track], `Odtwarzanie osobno: ${track.name}`));
     const mute = row.querySelector('.mixer-track-mute');
     mute.addEventListener('click', () => {
@@ -101,6 +114,7 @@
       mute.setAttribute('aria-pressed', String(track.muted));
       mute.textContent = track.muted ? 'Wyciszona' : 'Wycisz';
       row.classList.toggle('muted', track.muted);
+      updateLiveTrackGain(track);
     });
     row.querySelector('.mixer-track-remove').addEventListener('click', () => {
       stopPlayback();
@@ -189,7 +203,10 @@
   playAll.addEventListener('click', () => play(tracks, `Wspólne odtwarzanie ${tracks.filter(track => !track.muted).length} ścieżek.`));
   stopButton.addEventListener('click', () => stopPlayback('Odtwarzanie zatrzymane.'));
   exportButton.addEventListener('click', exportMix);
-  master.addEventListener('input', () => { masterValue.textContent = `${master.value}%`; });
+  master.addEventListener('input', () => {
+    masterValue.textContent = `${master.value}%`;
+    if (activeMasterGain) setAudioParam(activeMasterGain.gain, Number(master.value) / 100);
+  });
   for (const event of ['dragenter', 'dragover']) drop.addEventListener(event, e => { e.preventDefault(); drop.classList.add('dragging'); });
   for (const event of ['dragleave', 'drop']) drop.addEventListener(event, e => { e.preventDefault(); drop.classList.remove('dragging'); });
   drop.addEventListener('drop', e => addFiles([...e.dataTransfer.files]));
