@@ -6,9 +6,9 @@ Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięz�
 
 - Zrobiono: przygotowano cały projekt do pierwszego commitu i wysłania do `IPL-Marcin-Kalisiak/muzyka`; dodano `.gitignore` dla wyników tymczasowych i cache. Duże banki SF2 i archiwa są przeznaczone do Git LFS, ponieważ bank YDP przekracza limit 100 MB pojedynczego pliku GitHub.
 - Dlaczego: użytkownik wskazał własne repozytorium i polecił wysłać całość wraz z lokalnymi silnikami projektu.
-- Sprawdzono: projekt zajmuje około 388 MB; Git i Git LFS są dostępne, dane autora Git są skonfigurowane. Zwykłe sprawdzenie zdalnego repozytorium zostało zablokowane przez ograniczenie sieci środowiska.
-- Otwarte: wynik pierwszego wysłania i stan zdalnej gałęzi trzeba potwierdzić po połączeniu z GitHub.
-- Następny krok: zainicjalizować `main`, utworzyć commit i wysłać go do wskazanego `origin`.
+- Sprawdzono: utworzono commit `1d3c34e` obejmujący 183 pliki; GitHub przyjął gałąź `main`, a Git LFS wysłał 9 obiektów o łącznym rozmiarze 289 MB. Lokalna gałąź śledzi `origin/main`.
+- Otwarte: odbiorca repozytorium musi mieć Git LFS, aby po klonowaniu pobrać właściwą zawartość banków i archiwów zamiast wskaźników.
+- Następny krok: kolejne zmiany zapisywać małymi commitami i wysyłać na `main` lub przyszłe gałęzie funkcjonalne.
 
 ## 2026-09-13 — pełne studium Latin Fingerstyle w MusicJSON 0.5
 
