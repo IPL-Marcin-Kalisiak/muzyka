@@ -1,0 +1,14 @@
+# Wyniki tymczasowe generowane podczas renderowania
+python/output/*
+!python/output/.gitkeep
+
+# Cache lokalnego Pythona
+__pycache__/
+*.py[cod]
+
+# Pliki systemowe i edytorów
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

@@ -1,0 +1,4630 @@
+{
+  "format": "MusicJSON",
+  "format_version": "0.1",
+  "project": {
+    "title": "In the Hall of the Mountain King - piano JSON",
+    "composer": "Edvard Grieg",
+    "work": "Peer Gynt Suite No. 1, Op. 46 No. 4",
+    "arrangement": "Structured piano prototype based on the public-domain work",
+    "source_note": "Reference: Mutopia Project public-domain piano edition, source The University Society, 1918.",
+    "instrumentation": [
+      "piano"
+    ]
+  },
+  "global": {
+    "key": "B minor",
+    "time_signature": {
+      "numerator": 4,
+      "denominator": 4
+    },
+    "tempo_map": [
+      {
+        "bar": 1,
+        "bpm": 72
+      },
+      {
+        "bar": 9,
+        "bpm": 82
+      },
+      {
+        "bar": 17,
+        "bpm": 94
+      },
+      {
+        "bar": 25,
+        "bpm": 108
+      },
+      {
+        "bar": 33,
+        "bpm": 124
+      },
+      {
+        "bar": 41,
+        "bpm": 142
+      },
+      {
+        "bar": 49,
+        "bpm": 160
+      }
+    ],
+    "time_unit": "eighth_note",
+    "ticks_per_beat": 480
+  },
+  "tracks": [
+    {
+      "id": "piano",
+      "instrument": "acoustic_grand_piano",
+      "midi_program": 0,
+      "channel": 0,
+      "mix": {
+        "right_hand_gain_db": 3.0,
+        "left_hand_gain_db": 0.0,
+        "master_headroom_db": -4.0
+      },
+      "voices": [
+        {
+          "id": "right_hand",
+          "staff": "treble",
+          "notes": [
+            {
+              "pitch": "B3",
+              "start": 0.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 1,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 1.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 2.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 3.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 4.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 1,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D4",
+              "start": 5.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 6.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G4",
+              "start": 7.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 8.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 2,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 9.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 10.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 11.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 12.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 2,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B3",
+              "start": 13.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 14.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 15.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 16.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 3,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 17.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 18.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 19.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 20.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 3,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A4",
+              "start": 21.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 22.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 23.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 24.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 4,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 25.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 26.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 27.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 28.0,
+              "duration": 0.72,
+              "velocity": 60,
+              "measure": 4,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 29.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 30.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 31.0,
+              "duration": 0.72,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 32.0,
+              "duration": 2.0,
+              "velocity": 70,
+              "measure": 5,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 34.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 6,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 35.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 36.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 37.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 38.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 6,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A4",
+              "start": 39.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 40.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 41.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 42.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 7,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 43.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 44.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 45.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 46.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 7,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 47.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 48.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 49.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B3",
+              "start": 50.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 8,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 51.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 52.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 53.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 54.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 8,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D4",
+              "start": 55.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 56.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G4",
+              "start": 57.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 58.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 9,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 59.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 60.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 61.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 62.0,
+              "duration": 0.72,
+              "velocity": 70,
+              "measure": 9,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B3",
+              "start": 63.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 64.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 65.0,
+              "duration": 0.72,
+              "velocity": 64,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 66.0,
+              "duration": 2.0,
+              "velocity": 80,
+              "measure": 10,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B3",
+              "start": 68.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 11,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 69.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 70.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 71.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 72.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 11,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D4",
+              "start": 73.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 74.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G4",
+              "start": 75.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 76.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 12,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 77.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 78.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 79.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 80.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 12,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B3",
+              "start": 81.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 82.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 83.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 84.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 13,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 85.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 86.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 87.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 88.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 13,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A4",
+              "start": 89.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 90.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 91.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 92.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 14,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 93.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 94.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 95.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 96.0,
+              "duration": 0.72,
+              "velocity": 80,
+              "measure": 14,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 97.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 98.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 99.0,
+              "duration": 0.72,
+              "velocity": 74,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 100.0,
+              "duration": 2.0,
+              "velocity": 90,
+              "measure": 15,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 102.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 16,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 103.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 104.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 105.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 106.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 16,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A4",
+              "start": 107.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 108.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 109.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 110.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 17,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G4",
+              "start": 111.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 112.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 113.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 114.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 17,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#4",
+              "start": 115.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A4",
+              "start": 116.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 117.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B3",
+              "start": 118.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 18,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 119.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 120.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 121.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 122.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 18,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D4",
+              "start": 123.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 124.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G4",
+              "start": 125.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 126.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 19,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#4",
+              "start": 127.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 128.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 129.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 130.0,
+              "duration": 0.72,
+              "velocity": 90,
+              "measure": 19,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B3",
+              "start": 131.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D4",
+              "start": 132.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E4",
+              "start": 133.0,
+              "duration": 0.72,
+              "velocity": 84,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 134.0,
+              "duration": 2.0,
+              "velocity": 100,
+              "measure": 20,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 136.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 21,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 137.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 138.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 139.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 140.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 21,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D5",
+              "start": 141.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 142.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G5",
+              "start": 143.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 144.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 22,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 145.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 146.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 147.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 148.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 22,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 149.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 150.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 151.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 152.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 23,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 153.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 154.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 155.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 156.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 23,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A5",
+              "start": 157.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 158.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D6",
+              "start": 159.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 160.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 24,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 161.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 162.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 163.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 164.0,
+              "duration": 0.72,
+              "velocity": 100,
+              "measure": 24,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#5",
+              "start": 165.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 166.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 167.0,
+              "duration": 0.72,
+              "velocity": 94,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 168.0,
+              "duration": 2.0,
+              "velocity": 110,
+              "measure": 25,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#5",
+              "start": 170.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 26,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 171.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 172.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 173.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 174.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 26,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A5",
+              "start": 175.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 176.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D6",
+              "start": 177.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 178.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 27,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 179.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 180.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 181.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 182.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 27,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#5",
+              "start": 183.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 184.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 185.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B4",
+              "start": 186.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 28,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 187.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 188.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 189.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 190.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 28,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D5",
+              "start": 191.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 192.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G5",
+              "start": 193.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 194.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 29,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 195.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 196.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 197.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 198.0,
+              "duration": 0.72,
+              "velocity": 110,
+              "measure": 29,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 199.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 200.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 201.0,
+              "duration": 0.72,
+              "velocity": 104,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 202.0,
+              "duration": 2.0,
+              "velocity": 120,
+              "measure": 30,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 204.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 31,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 205.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 206.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 207.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 208.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 31,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "D5",
+              "start": 209.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 210.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G5",
+              "start": 211.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 212.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 32,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "C#5",
+              "start": 213.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 214.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 215.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 216.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 32,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 217.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D5",
+              "start": 218.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E5",
+              "start": 219.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 220.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 33,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 221.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 222.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 223.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 224.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 33,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "A5",
+              "start": 225.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 226.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D6",
+              "start": 227.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 228.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 34,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G5",
+              "start": 229.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 230.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#6",
+              "start": 231.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 232.0,
+              "duration": 0.72,
+              "velocity": 120,
+              "measure": 34,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#5",
+              "start": 233.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "A5",
+              "start": 234.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 235.0,
+              "duration": 0.72,
+              "velocity": 114,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B5",
+              "start": 236.0,
+              "duration": 2.0,
+              "velocity": 127,
+              "measure": 35,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B4",
+              "start": 238.0,
+              "duration": 0.6,
+              "velocity": 112,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 238.0,
+              "duration": 0.6,
+              "velocity": 112,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 238.0,
+              "duration": 0.6,
+              "velocity": 112,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 239.0,
+              "duration": 0.6,
+              "velocity": 113,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 239.0,
+              "duration": 0.6,
+              "velocity": 113,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 239.0,
+              "duration": 0.6,
+              "velocity": 113,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 240.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 240.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 240.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 241.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 241.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 241.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 36,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A4",
+              "start": 242.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 242.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 242.0,
+              "duration": 0.6,
+              "velocity": 114,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A4",
+              "start": 243.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 243.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 243.0,
+              "duration": 0.6,
+              "velocity": 115,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A4",
+              "start": 244.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 244.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 244.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A4",
+              "start": 245.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 245.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 245.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 37,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "G4",
+              "start": 246.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 246.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "E5",
+              "start": 246.0,
+              "duration": 0.6,
+              "velocity": 116,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "G4",
+              "start": 247.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 247.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "E5",
+              "start": 247.0,
+              "duration": 0.6,
+              "velocity": 117,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "G4",
+              "start": 248.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 248.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "E5",
+              "start": 248.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "G4",
+              "start": 249.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 249.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "E5",
+              "start": 249.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 38,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 250.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A#4",
+              "start": 250.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 250.0,
+              "duration": 0.6,
+              "velocity": 118,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 251.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A#4",
+              "start": 251.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 251.0,
+              "duration": 0.6,
+              "velocity": 119,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 252.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A#4",
+              "start": 252.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 252.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#4",
+              "start": 253.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "A#4",
+              "start": 253.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "C#5",
+              "start": 253.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 39,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 254.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 254.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 254.0,
+              "duration": 0.6,
+              "velocity": 120,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 255.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 255.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 255.0,
+              "duration": 0.6,
+              "velocity": 121,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 256.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 256.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 256.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B4",
+              "start": 257.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D5",
+              "start": 257.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#5",
+              "start": 257.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 40,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B5",
+              "start": 258.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D6",
+              "start": 258.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#6",
+              "start": 258.0,
+              "duration": 0.6,
+              "velocity": 122,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B5",
+              "start": 259.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D6",
+              "start": 259.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#6",
+              "start": 259.0,
+              "duration": 0.6,
+              "velocity": 123,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B5",
+              "start": 260.0,
+              "duration": 0.6,
+              "velocity": 124,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D6",
+              "start": 260.0,
+              "duration": 0.6,
+              "velocity": 124,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#6",
+              "start": 260.0,
+              "duration": 0.6,
+              "velocity": 124,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B5",
+              "start": 261.0,
+              "duration": 0.6,
+              "velocity": 125,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "D6",
+              "start": 261.0,
+              "duration": 0.6,
+              "velocity": 125,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "F#6",
+              "start": 261.0,
+              "duration": 0.6,
+              "velocity": 125,
+              "measure": 41,
+              "articulation": "marcato"
+            },
+            {
+              "pitch": "B3",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "D4",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "F#4",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "B4",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "D5",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "F#5",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "B5",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 127,
+              "measure": 42,
+              "articulation": "fermata"
+            }
+          ]
+        },
+        {
+          "id": "left_hand",
+          "staff": "bass",
+          "notes": [
+            {
+              "pitch": "B2",
+              "start": 0.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 1.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 2.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 3.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 4.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 1,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 5.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 6.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 7.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 1,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 8.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 9.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 10.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 11.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 12.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 2,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 13.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 14.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 15.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 2,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 16.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 17.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 18.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 19.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 20.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 3,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 21.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 22.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 23.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 3,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 24.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 25.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 26.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 27.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 28.0,
+              "duration": 0.78,
+              "velocity": 54,
+              "measure": 4,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 29.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 30.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 31.0,
+              "duration": 0.78,
+              "velocity": 46,
+              "measure": 4,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 32.0,
+              "duration": 2.0,
+              "velocity": 60,
+              "measure": 5,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 34.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 6,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 35.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 36.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 37.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 38.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 6,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 39.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 40.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 41.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 6,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 42.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 7,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 43.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 44.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 45.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 46.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 7,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 47.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 48.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 49.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 7,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 50.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 8,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 51.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 52.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 53.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 54.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 8,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 55.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 56.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 57.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 8,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 58.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 9,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 59.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 60.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 61.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 62.0,
+              "duration": 0.78,
+              "velocity": 63,
+              "measure": 9,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 63.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 64.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 65.0,
+              "duration": 0.78,
+              "velocity": 55,
+              "measure": 9,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 66.0,
+              "duration": 2.0,
+              "velocity": 69,
+              "measure": 10,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 68.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 11,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 69.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 70.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 71.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 72.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 11,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 73.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 74.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 75.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 11,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 76.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 12,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 77.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 78.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 79.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 80.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 12,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 81.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 82.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 83.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 12,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 84.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 13,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 85.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 86.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 87.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 88.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 13,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 89.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 90.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 91.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 13,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 92.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 14,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 93.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 94.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 95.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 96.0,
+              "duration": 0.78,
+              "velocity": 72,
+              "measure": 14,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 97.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 98.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 99.0,
+              "duration": 0.78,
+              "velocity": 64,
+              "measure": 14,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 100.0,
+              "duration": 2.0,
+              "velocity": 78,
+              "measure": 15,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 102.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 16,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 103.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 104.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 105.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 106.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 16,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 107.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 108.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 109.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 16,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 110.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 17,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 111.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 112.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 113.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 114.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 17,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 115.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 116.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 117.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 17,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 118.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 18,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 119.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 120.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 121.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 122.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 18,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 123.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 124.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 125.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 18,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 126.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 19,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 127.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 128.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 129.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 130.0,
+              "duration": 0.78,
+              "velocity": 81,
+              "measure": 19,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 131.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 132.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "C#2",
+              "start": 133.0,
+              "duration": 0.78,
+              "velocity": 73,
+              "measure": 19,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 134.0,
+              "duration": 2.0,
+              "velocity": 87,
+              "measure": 20,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 136.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 21,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 137.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 138.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 139.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 140.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 21,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 141.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 142.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 143.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 21,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 144.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 22,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 145.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 146.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 147.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 148.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 22,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 149.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 150.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 151.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 22,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 152.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 23,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 153.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 154.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 155.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 156.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 23,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 157.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 158.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 159.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 23,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 160.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 24,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 161.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 162.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 163.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 164.0,
+              "duration": 0.78,
+              "velocity": 90,
+              "measure": 24,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 165.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 166.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "F#2",
+              "start": 167.0,
+              "duration": 0.78,
+              "velocity": 82,
+              "measure": 24,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B2",
+              "start": 168.0,
+              "duration": 2.0,
+              "velocity": 96,
+              "measure": 25,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 170.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 26,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 171.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 172.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 173.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 174.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 26,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 175.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 176.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 177.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 26,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 178.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 27,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 179.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 180.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 181.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 182.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 27,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 183.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 184.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 185.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 27,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 186.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 28,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 187.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 188.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 189.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 190.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 28,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 191.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 192.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 193.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 28,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 194.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 29,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 195.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 196.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 197.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 198.0,
+              "duration": 0.78,
+              "velocity": 99,
+              "measure": 29,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "G2",
+              "start": 199.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 200.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "D2",
+              "start": 201.0,
+              "duration": 0.78,
+              "velocity": 91,
+              "measure": 29,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "G2",
+              "start": 202.0,
+              "duration": 2.0,
+              "velocity": 105,
+              "measure": 30,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 204.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 31,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 205.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 206.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 207.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 208.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 31,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 209.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 210.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 211.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 31,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 212.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 32,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 213.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 214.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 215.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 216.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 32,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 217.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 218.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 219.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 32,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 220.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 33,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 221.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 222.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 223.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 224.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 33,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 225.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 226.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 227.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 33,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 228.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 34,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 229.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 230.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 231.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 232.0,
+              "duration": 0.78,
+              "velocity": 108,
+              "measure": 34,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 233.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 234.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "B1",
+              "start": 235.0,
+              "duration": 0.78,
+              "velocity": 100,
+              "measure": 34,
+              "articulation": "staccato"
+            },
+            {
+              "pitch": "E2",
+              "start": 236.0,
+              "duration": 2.0,
+              "velocity": 114,
+              "measure": 35,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 238.0,
+              "duration": 0.85,
+              "velocity": 106,
+              "measure": 36,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 239.0,
+              "duration": 0.85,
+              "velocity": 106,
+              "measure": 36,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 240.0,
+              "duration": 0.85,
+              "velocity": 106,
+              "measure": 36,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 241.0,
+              "duration": 0.85,
+              "velocity": 106,
+              "measure": 36,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 242.0,
+              "duration": 0.85,
+              "velocity": 108,
+              "measure": 37,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 243.0,
+              "duration": 0.85,
+              "velocity": 108,
+              "measure": 37,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 244.0,
+              "duration": 0.85,
+              "velocity": 108,
+              "measure": 37,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 245.0,
+              "duration": 0.85,
+              "velocity": 108,
+              "measure": 37,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 246.0,
+              "duration": 0.85,
+              "velocity": 110,
+              "measure": 38,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 247.0,
+              "duration": 0.85,
+              "velocity": 110,
+              "measure": 38,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 248.0,
+              "duration": 0.85,
+              "velocity": 110,
+              "measure": 38,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "E2",
+              "start": 249.0,
+              "duration": 0.85,
+              "velocity": 110,
+              "measure": 38,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 250.0,
+              "duration": 0.85,
+              "velocity": 112,
+              "measure": 39,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 251.0,
+              "duration": 0.85,
+              "velocity": 112,
+              "measure": 39,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 252.0,
+              "duration": 0.85,
+              "velocity": 112,
+              "measure": 39,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "F#2",
+              "start": 253.0,
+              "duration": 0.85,
+              "velocity": 112,
+              "measure": 39,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 254.0,
+              "duration": 0.85,
+              "velocity": 114,
+              "measure": 40,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 255.0,
+              "duration": 0.85,
+              "velocity": 114,
+              "measure": 40,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 256.0,
+              "duration": 0.85,
+              "velocity": 114,
+              "measure": 40,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B2",
+              "start": 257.0,
+              "duration": 0.85,
+              "velocity": 114,
+              "measure": 40,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B1",
+              "start": 258.0,
+              "duration": 0.85,
+              "velocity": 116,
+              "measure": 41,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B1",
+              "start": 259.0,
+              "duration": 0.85,
+              "velocity": 116,
+              "measure": 41,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B1",
+              "start": 260.0,
+              "duration": 0.85,
+              "velocity": 116,
+              "measure": 41,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B1",
+              "start": 261.0,
+              "duration": 0.85,
+              "velocity": 116,
+              "measure": 41,
+              "articulation": "accent"
+            },
+            {
+              "pitch": "B1",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 120,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "B2",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 120,
+              "measure": 42,
+              "articulation": "fermata"
+            },
+            {
+              "pitch": "F#3",
+              "start": 262.0,
+              "duration": 4.0,
+              "velocity": 120,
+              "measure": 42,
+              "articulation": "fermata"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "prototype_scope": "extended piano test arrangement with accelerating tempo, repeated ostinato, rising dynamics and a strong coda",
+    "complete_critical_edition": false,
+    "character": "mysterious -> increasingly agitated -> explosive",
+    "render_hint": "staccato articulation is essential; increase tempo and dynamics according to tempo_map"
+  }
+}

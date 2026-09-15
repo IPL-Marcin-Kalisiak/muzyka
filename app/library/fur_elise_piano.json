@@ -1,0 +1,738 @@
+{
+  "format": "MusicJSON",
+  "format_version": "0.1",
+  "project": {
+    "title": "Für Elise - piano prototype",
+    "composer": "Ludwig van Beethoven",
+    "work": "Bagatelle No. 25 in A minor, WoO 59",
+    "arrangement": "MusicJSON prototype based on the public-domain score",
+    "source_note": "Public-domain composition; reference source: Mutopia Project, Breitkopf & Härtel 1888 edition.",
+    "instrumentation": [
+      "piano"
+    ]
+  },
+  "global": {
+    "key": "A minor",
+    "time_signature": {
+      "numerator": 3,
+      "denominator": 8
+    },
+    "tempo": {
+      "bpm": 72,
+      "beat_unit": "eighth"
+    },
+    "time_unit": "eighth_note",
+    "ticks_per_beat": 480
+  },
+  "tracks": [
+    {
+      "id": "piano",
+      "instrument": "acoustic_grand_piano",
+      "midi_program": 0,
+      "channel": 0,
+      "render": {
+        "engine": "midi_vst",
+        "preset": "grand_piano"
+      },
+      "voices": [
+        {
+          "id": "right_hand",
+          "staff": "treble",
+          "notes": [
+            {
+              "pitch": "E5",
+              "start": 0.0,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 0.5,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 1.0,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 1.5,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 2.0,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 2.5,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D5",
+              "start": 3.0,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 3.5,
+              "duration": 0.5,
+              "velocity": 82,
+              "measure": 0,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 4.0,
+              "duration": 1.0,
+              "velocity": 84,
+              "measure": 1,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C4",
+              "start": 5.0,
+              "duration": 0.5,
+              "velocity": 76,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 5.5,
+              "duration": 0.5,
+              "velocity": 76,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 6.0,
+              "duration": 0.5,
+              "velocity": 76,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 6.5,
+              "duration": 0.5,
+              "velocity": 76,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 7.0,
+              "duration": 0.5,
+              "velocity": 74,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#4",
+              "start": 7.5,
+              "duration": 0.5,
+              "velocity": 76,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 8.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 8.5,
+              "duration": 1.0,
+              "velocity": 82,
+              "measure": 3,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 9.5,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 10.0,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 10.5,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 11.0,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 11.5,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 12.0,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 12.5,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D5",
+              "start": 13.0,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 13.5,
+              "duration": 0.5,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 14.0,
+              "duration": 1.0,
+              "velocity": 80,
+              "measure": 4,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C4",
+              "start": 15.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 15.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 16.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 16.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 17.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 17.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 18.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 18.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#4",
+              "start": 19.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 19.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 20.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 20.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E4",
+              "start": 21.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 21.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 22.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 22.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D#5",
+              "start": 23.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E5",
+              "start": 23.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "B4",
+              "start": 24.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "D5",
+              "start": 24.5,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C5",
+              "start": 25.0,
+              "duration": 0.5,
+              "velocity": 78,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A4",
+              "start": 25.5,
+              "duration": 1.0,
+              "velocity": 78,
+              "measure": 9,
+              "articulation": "legato"
+            }
+          ]
+        },
+        {
+          "id": "left_hand",
+          "staff": "bass",
+          "notes": [
+            {
+              "pitch": "A2",
+              "start": 4.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 1,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 5.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 1,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 6.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 1,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E2",
+              "start": 7.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 8.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#3",
+              "start": 9.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 2,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 10.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 3,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 11.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 3,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 12.0,
+              "duration": 1.0,
+              "velocity": 60,
+              "measure": 3,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 13.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 5,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 14.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 5,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 15.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E2",
+              "start": 16.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 17.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 6,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#3",
+              "start": 18.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 19.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 20.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 7,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 21.0,
+              "duration": 1.0,
+              "velocity": 59,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 22.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 23.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 24.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 8,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E2",
+              "start": 25.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 26.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#3",
+              "start": 27.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 9,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 28.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 10,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 29.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 10,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 30.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 10,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "C3",
+              "start": 31.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 11,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 32.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 11,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 33.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 11,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E2",
+              "start": 34.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 12,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 35.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 12,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "G#3",
+              "start": 36.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 12,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A2",
+              "start": 37.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 13,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "E3",
+              "start": 38.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 13,
+              "articulation": "legato"
+            },
+            {
+              "pitch": "A3",
+              "start": 39.0,
+              "duration": 1.0,
+              "velocity": 58,
+              "measure": 13,
+              "articulation": "legato"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "prototype_scope": "opening/main-theme excerpt for validating JSON→MIDI→audio pipeline",
+    "complete_work": false,
+    "recommended_next_step": "Convert this file to MIDI and render through a local piano VST or SoundFont."
+  }
+}
