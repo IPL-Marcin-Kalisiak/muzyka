@@ -4,9 +4,9 @@ Strona `/violin` udostępnia dwa przewidywalne sposoby wykonania tej samej party
 
 ## Model próbkowany
 
-Domyślny przepływ to `MusicJSON → python/render_violin.py → MIDI → FluidSynth 2.5.4 → WAV`. Renderer wybiera program General MIDI 40 (skrzypce) z banku `FreePatsGM-20221026.sf2`. Cały interpreter Python, FluidSynth, SoundFont i pliki licencyjne znajdują się w projekcie, więc po instalacji repozytorium zwykłe renderowanie nie wymaga internetu.
+Domyślny przepływ to `MusicJSON → python/render_violin.py → MIDI → FluidSynth 2.5.4 → WAV`. Renderer wybiera program General MIDI 40 (skrzypce) z banku `GeneralUser-GS-v1.471.sf2`. Cały interpreter Python, FluidSynth, SoundFont i pliki licencyjne znajdują się w projekcie, więc po instalacji repozytorium zwykłe renderowanie nie wymaga internetu.
 
-Bank pochodzi z [FreePats General MIDI](https://freepats.zenvoid.org/SoundSets/general-midi.html), wydanie 2022-10-26. Jest udostępniony na GNU GPL v3 lub nowszej ze specjalnym wyjątkiem dotyczącym utworów tworzonych z próbek; szczegółowe warunki i licencje części składowych zachowano w `app/instruments/violin/freepats-gm/FreePatsGM-SF2-20221026/`.
+Bank pochodzi z projektu [GeneralUser GS](https://github.com/ROCKNIX/generaluser-gs) S. Christiana Collinsa. Licencja pozwala używać go w projektach programistycznych i produkcji muzycznej; jej pełną treść oraz README i CHANGELOG zachowano w `app/instruments/violin/generaluser-gs/`. Poprzedni FreePats General MIDI był niepełny i nie zawierał programu 40, przez co FluidSynth wracał do programu 0 — pianina.
 
 ## Model syntetyczny
 

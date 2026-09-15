@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LIBRARY = ROOT / "app/library"
 OUTPUT = ROOT / "python/output"
-SOUNDFONT = ROOT / "app/instruments/violin/freepats-gm/FreePatsGM-SF2-20221026/FreePatsGM-20221026.sf2"
+SOUNDFONT = ROOT / "app/instruments/violin/generaluser-gs/GeneralUser-GS-v1.471.sf2"
 FLUIDSYNTH = ROOT / "server/fluidsynth/fluidsynth-v2.5.4-win10-x64-cpp11/bin/fluidsynth.exe"
 
 def vlq(value):

@@ -5,7 +5,7 @@ Stan: 2026-09-13. To rejestr **faktycznie używanych** składników projektu. Ak
 
 ## Skrzypce
 
-`/violin` ma dwa silniki. Domyślny eksport używa `python/render_violin.py`, lokalnego FluidSynth 2.5.4 i programu General MIDI 40 z banku `app/instruments/violin/freepats-gm/FreePatsGM-SF2-20221026/FreePatsGM-20221026.sf2`. Bank FreePats General MIDI w wydaniu 2022-10-26 ma licencję GNU GPL v3+ ze specjalnym wyjątkiem; oryginalne `readme.txt`, `gpl.txt` i `cc0.txt` są zachowane przy SF2. Archiwum źródłowe znajduje się w `server/packages/FreePatsGM-SF2-20221026.7z`.
+`/violin` ma dwa silniki. Domyślny eksport używa `python/render_violin.py`, lokalnego FluidSynth 2.5.4 i programu General MIDI 40 z kompletnego banku `app/instruments/violin/generaluser-gs/GeneralUser-GS-v1.471.sf2`. GeneralUser GS v1.471 autorstwa S. Christiana Collinsa pozwala na użycie w projektach programistycznych i produkcji muzycznej; `LICENSE.txt`, `README.txt` i `CHANGELOG.txt` są zachowane obok banku. Poprzedni FreePats GM nie zawierał presetu skrzypiec, więc FluidSynth wracał do programu 0 i faktycznie renderował pianino; ten bank oraz jego archiwum usunięto.
 
 Drugi silnik to deterministyczna synteza Web Audio używana przez interaktywny gryf i opcjonalny eksport w przeglądarce. Sumuje harmoniczne, obwiednię i łagodne vibrato. Renderer próbkowany obsługuje MusicJSON 0.3 w tickach: pitch MIDI, początek, długość, velocity i mapę tempa. Nie interpretuje jeszcze legato, staccato, kierunku/nacisku smyczka, portamento ani parametrów vibrato. Szczegóły: [`../dokumentacja/renderowanie-skrzypiec.md`](../dokumentacja/renderowanie-skrzypiec.md).
 

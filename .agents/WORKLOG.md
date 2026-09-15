@@ -2,6 +2,13 @@
 
 Czytaj przed rozpoczęciem zadania. Po każdym zadaniu dopisz najnowszy, zwięzły wpis na górze. Podawaj stan faktyczny oraz następny krok.
 
+## 2026-09-15 — poprawa brzmienia skrzypiec
+
+- Zrobiono: zastąpiono FreePats General MIDI kompletnym bankiem GeneralUser GS v1.471 i skierowano `render_violin.py` do presetu 0:40 Violin. Poprawiono nazwę modelu w interfejsie, licencję i dokumentację; usunięto nieużywany bank FreePats oraz jego archiwum.
+- Dlaczego: analiza logu FluidSynth i listy banku wykazała, że FreePats GM nie zawiera programu skrzypiec 40. Po żądaniu tego programu FluidSynth wracał do programu 0, więc eksport rzeczywiście używał pianina.
+- Sprawdzono: komunikat MIDI Program Change 40 jest obecny; GeneralUser GS deklaruje preset 0:40 Violin. Pełny „W grocie króla gór” renderuje 119,29 s stereo WAV 44,1 kHz ze szczytem −5,1 dBFS i bez obciętych próbek.
+- Otwarte: to nadal jeden preset SF2; kierunek smyczka i różne artykulacje pozostają metadanymi.
+- Następny krok: odsłuchać poprawiony eksport i ewentualnie dodać drugi model skrzypiec z warstwami legato/staccato.
 ## 2026-09-15 — „W grocie króla gór” na skrzypce
 
 - Zrobiono: dodano `in_the_hall_of_the_mountain_king_violin.json` jako solową partię skrzypiec MusicJSON 0.3. Melodia i siedmiostopniowe accelerando pochodzą z wersji pianina, a zapis tickowy i struktura pojedynczego instrumentu z wersji gitary. Wielodźwięki finału zredukowano do najwyższego głosu.

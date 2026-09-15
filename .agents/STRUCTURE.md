@@ -59,7 +59,7 @@ Stan: 2026-09-15. Ten plik jest **główną mapą katalogów**. Aktualizuj go, g
 │   │   ├── piano/ydp-grand-piano/    # próbki Yamaha Disklavier Pro, SF2 i nota CC BY 3.0
 │   │   ├── piano/upright-kw/         # próbki Kawai Upright KW SF2, nota CC0
 │   │   ├── guitar/freepats-spanish-classical/ # próbki SF2 gitary, nota CC0
-│   │   └── violin/freepats-gm/       # bank General MIDI z próbkami skrzypiec i licencjami
+│   │   └── violin/generaluser-gs/       # kompletny bank z presetem Violin 0:40 i licencją
 │   └── vocal/
 │       ├── pl/
 │       │   ├── Agnieszka/.gitkeep    # przyszłe zasoby polskiego głosu
